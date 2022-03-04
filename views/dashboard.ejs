@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNVEIL Dropshipping Website</title>
+
+    <!-- Favicon thingy -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- custom js file link  -->
+    <script src="/js/script.js" defer></script>
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> UNVEIL  </a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="dashboard">home</a></li>
+            <li><a href="/users/catalog">catalog</a></li>
+            <li><a href="/users/contact">contact</a></li>
+            <li><a href="#">account +</a>
+                <ul>
+                    <li><a href="/users/logout">logout</a></li>
+                    <li><a href="/users/register">Register</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="/users/cart" class="fas fa-shopping-cart"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home">
+
+    <div class="slide active" style="background: url(/images/home-bg4.png) no-repeat;">
+        <div class="content">
+            <span>Start your Business with us!</span>
+            <h3>Bundle 30% off</h3>
+            <a href="/users/catalog" class="btn">View More</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(/images/home-bg2.png) no-repeat;">
+        <div class="content">
+            <span>Start your Business with us!</span>
+            <h3>Bundle 30% off</h3>
+            <a href="/users/catalog" class="btn">View More</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(/images/home-bg1.png) no-repeat;">
+        <div class="content">
+            <span>Start your Business with us!</span>
+            <h3>Bundle 30% off</h3>
+            <a href="/users/catalog" class="btn">View More</a>
+        </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- process section starts -->
+
+<section class="heading-l">
+    <h1>About Us</h1>
+</section>
+
+<section class="about">
+
+    <div class="row">
+
+        <div class="image">
+            <img src="/images/about-2.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>What is Dropshipping?</h3>
+            <p>It is a form of retail business wherein the seller accepts customer orders but does not keep goods sold in stock. Dropshipping is a type of order fulfillment where store owners don't manage inventory themselves. Instead, dropshippers buy the items from a third-party supplier who fulfills customers' orders for them.</p>
+            <p>Unveil is a dropshipping website where it purchases the item/s from a third party and ships it directly to the customer when the customer/s makes orders which means that the seller does not have to handle the product directly.
+            </p>
+            <a href="https://web.z.com/ph/blog/2021-update-the-ultimate-dropshipping-business-guide-in-the-philippines/" target="_blank" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="icons-container">
+    
+        <div class="icons">
+            <img src="/images/icon-1.png" alt="">
+            <h3>Choose Product</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/icon-4.png" alt="">
+            <h3>Mode of Payment</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/icon-3.png" alt="">
+            <h3>Packaging</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/icon-2.png" alt="">
+            <h3>Delivery</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/icon-5.png" alt="">
+            <h3>24/7 support</h3>
+        </div>
+    </div>
+
+</section>
+
+<!-- process section ends -->
+
+<section class="heading-l">
+    <h1>Featured Catalog</h1>
+</section>
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="box">
+        <img src="/images/travel/tt.jpg" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Travel Needs</h3>
+            <a href="/users/travel" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="/images/cosme/m1.png" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Cosmetics</h3>
+            <a href="/users/cosmetics" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="/images/clothes/c1.jpg" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Garments</h3>
+            <a href="/users/clothes" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="banner">
+
+    <div class="box">
+        <img src="/images/gadgets/g1.png" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Gadgets</h3>
+            <a href="/users/gadgets" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="/images/baby/b1.png" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Children</h3>
+            <a href="/users/baby" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="/images/tools/t1.png" alt="">
+        <div class="content">
+            <span>special deals in</span>
+            <h3>Home Tools</h3>
+            <a href="/users/tools" class="btn">View Catalogue</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+
+<section class="heading-l">
+    <h1>Support</h1>
+</section>
+
+<section class="about">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Mission</h3>
+            <p>Unveil was launched to make dropshipping business accessible to anyone who wants to start an online business easy, fast and hassle free. To support what the website will specialize in as some of them can be lacking or less than the others.Unveil aspires and wishes to provide a start to all aspiring entrepreneurs, with or without knowledge and experience in dropshipping.</p>
+
+        </div>
+
+        <div class="content">
+            <h3>Vision</h3>
+            <p>We want to become the go-to-dropshipping platform with our efficient automated system, proven track record in the E-commerce industry and determined support team who desire to make a difference in our Dropshipper's lives and future businesses. Partnership with Unveil will create more opportunities for Filipinos inside and outside of the country giving them a source of income at the comfort of their own home 24/7.
+            </p>
+           
+        </div>
+    </div>
+
+    <div class="icons-container">
+    
+        <div class="icons">
+            <img src="/images/features/f1.png" alt="">
+            <h3>Browse Thru</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/features/f2.png" alt="">
+            <h3>Manage your Time</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/features/f3.png" alt="">
+            <h3>Save Money</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/features/f4.png" alt="">
+            <h3>Enjoy Rewards</h3>
+        </div>
+    
+        <div class="icons">
+            <img src="/images/features/f5.png" alt="">
+            <h3>Celebrate</h3>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="products.html"> <i class="fas fa-angle-right"></i> catalogs</a>
+            <a href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+            <a href="login.html"> <i class="fas fa-angle-right"></i> login</a>
+            <a href="register.html"> <i class="fas fa-angle-right"></i> register</a>
+            <a href="cart.html"> <i class="fas fa-angle-right"></i> cart</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your emal">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit">Project in CS155-1L | Presented by <span>Chan, Lorenzo, Maningat, Masacayan & San Pedro</span></div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
